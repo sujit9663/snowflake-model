@@ -1,0 +1,436 @@
+{
+    "warehouses" : 
+    [
+        {
+            "warehouse_name"    : "KPN_Finance_WH",
+            "comment"           : "warehouse for KPN use case",
+            "size"              : "x-small"
+        }
+    ],
+    "databases_details" : 
+    [
+        {
+            "database_name"     : "KPN_Finance_DB"
+        }
+    ],
+    "schema_details" :
+    [
+        {
+            "database_name" : "KPN_Finance_DB",
+            "schema_name"   : "KPN_Finance_SC"
+        }
+    ],
+    "tables_details" : 
+    [
+        {
+            "database_name" : "KPN_Finance_DB",
+            "schema_name" :"KPN_Finance_SC",
+            "table_name" : "KPN_Finance_DA1_TB1",
+            "columns" : 
+            [
+                {
+                    "name": "MAC",
+                    "type": "VARCHAR(30)"
+                },
+                {
+                    "name": "STATIONTYPE",
+                    "type": "VARCHAR(50)"
+                },
+                {
+                    "name": "AVERAGE_LATENCY",
+                    "type": "DECIMAL"
+                },
+                {
+                    "name": "LATENCY_QUALITY",
+                    "type": "VARCHAR(20)"
+                },
+                {
+                    "name": "AVERAGE_THROUGHPUTACTIVE",
+                    "type": "BIGINT"
+                },
+                {
+                    "name": "AVERAGE_RSSI",
+                    "type": "INT"
+                },
+                {
+                    "name": "RSSI_QUALITY",
+                    "type": "VARCHAR(20)"
+                },
+                {
+                    "name": "SUM_CER_DN",
+                    "type": "BIGINT"
+                },
+                {
+                    "name": "SUM_CCER_DN",
+                    "type": "BIGINT"
+                },
+                {
+                    "name": "AVERAGE_SNR_DN",
+                    "type": "DECIMAL"
+                },
+                {
+                    "name": "SNR_QUALITY",
+                    "type": "VARCHAR(20)"
+                },
+                {
+                    "name": "AVERAGE_RX_POWER_DN",
+                    "type": "DECIMAL"
+                },
+                {
+                    "name": "DATE_DIM_KEY",
+                    "type": "BIGINT"
+                }
+            ]
+        },
+        {
+            "database_name" : "KPN_Finance_DB",
+            "schema_name" :"KPN_Finance_SC",
+            "table_name" : "KPN_Finance_DA1_TB2",
+            "columns" : 
+            [
+                {
+                    "name": "CAPACITY_KEY",
+                    "type": "BIGINT PRIMARY KEY AUTOINCREMENT START=1 INCREMENT=1"
+                },
+                {
+                    "name": "MAC",
+                    "type": "VARCHAR(30)"
+                },
+                {
+                    "name": "STATIONTYPE",
+                    "type": "VARCHAR(50)"
+                },
+                {
+                    "name": "AVERAGE_LATENCY",
+                    "type": "DECIMAL"
+                },
+                {
+                    "name": "LATENCY_QUALITY",
+                    "type": "VARCHAR(20)"
+                },
+                {
+                    "name": "AVERAGE_THROUGHPUTACTIVE",
+                    "type": "BIGINT"
+                },
+                {
+                    "name": "AVERAGE_RSSI",
+                    "type": "INT"
+                },
+                {
+                    "name": "RSSI_QUALITY",
+                    "type": "VARCHAR(20)"
+                },
+                {
+                    "name": "SUM_CER_DN",
+                    "type": "BIGINT"
+                },
+                {
+                    "name": "SUM_CCER_DN",
+                    "type": "BIGINT"
+                },
+                {
+                    "name": "AVERAGE_SNR_DN",
+                    "type": "DECIMAL"
+                },
+                {
+                    "name": "SNR_QUALITY",
+                    "type": "VARCHAR(20)"
+                },
+                {
+                    "name": "AVERAGE_RX_POWER_DN",
+                    "type": "DECIMAL"
+                },
+                {
+                    "name": "DATE_DIM_KEY",
+                    "type": "BIGINT"
+                },
+                {
+                    "name": "UPDT_DTTM",
+                    "type": "TIMESTAMP_NTZ"
+                }
+            ]
+        },
+        {
+            "database_name" : "KPN_Finance_DB",
+            "schema_name" :"KPN_Finance_SC",
+            "table_name" : "KPN_Finance_DA2_TB3",
+            "columns" : 
+            [
+                {
+                    "name": "MAC",
+                    "type": "VARCHAR(30)"
+                },
+                {
+                    "name": "STATIONTYPE",
+                    "type": "VARCHAR(50)"
+                },
+                {
+                    "name": "AVERAGE_LATENCY",
+                    "type": "DECIMAL"
+                },
+                {
+                    "name": "LATENCY_QUALITY",
+                    "type": "VARCHAR(20)"
+                },
+                {
+                    "name": "AVERAGE_THROUGHPUTACTIVE",
+                    "type": "BIGINT"
+                },
+                {
+                    "name": "AVERAGE_RSSI",
+                    "type": "INT"
+                },
+                {
+                    "name": "RSSI_QUALITY",
+                    "type": "VARCHAR(20)"
+                },
+                {
+                    "name": "SUM_CER_DN",
+                    "type": "BIGINT"
+                },
+                {
+                    "name": "SUM_CCER_DN",
+                    "type": "BIGINT"
+                },
+                {
+                    "name": "AVERAGE_SNR_DN",
+                    "type": "DECIMAL"
+                },
+                {
+                    "name": "SNR_QUALITY",
+                    "type": "VARCHAR(20)"
+                },
+                {
+                    "name": "AVERAGE_RX_POWER_DN",
+                    "type": "DECIMAL"
+                },
+                {
+                    "name": "DATE_DIM_KEY",
+                    "type": "BIGINT"
+                }
+            ]
+        },
+        {
+            "database_name" : "KPN_Finance_DB",
+            "schema_name" :"KPN_Finance_SC",
+            "table_name" : "KPN_Finance_DA2_TB4",
+            "columns" : 
+            [
+                {
+                    "name": "CAPACITY_KEY",
+                    "type": "BIGINT PRIMARY KEY AUTOINCREMENT START=1 INCREMENT=1"
+                },
+                {
+                    "name": "MAC",
+                    "type": "VARCHAR(30)"
+                },
+                {
+                    "name": "STATIONTYPE",
+                    "type": "VARCHAR(50)"
+                },
+                {
+                    "name": "AVERAGE_LATENCY",
+                    "type": "DECIMAL"
+                },
+                {
+                    "name": "LATENCY_QUALITY",
+                    "type": "VARCHAR(20)"
+                },
+                {
+                    "name": "AVERAGE_THROUGHPUTACTIVE",
+                    "type": "BIGINT"
+                },
+                {
+                    "name": "AVERAGE_RSSI",
+                    "type": "INT"
+                },
+                {
+                    "name": "RSSI_QUALITY",
+                    "type": "VARCHAR(20)"
+                },
+                {
+                    "name": "SUM_CER_DN",
+                    "type": "BIGINT"
+                },
+                {
+                    "name": "SUM_CCER_DN",
+                    "type": "BIGINT"
+                },
+                {
+                    "name": "AVERAGE_SNR_DN",
+                    "type": "DECIMAL"
+                },
+                {
+                    "name": "SNR_QUALITY",
+                    "type": "VARCHAR(20)"
+                },
+                {
+                    "name": "AVERAGE_RX_POWER_DN",
+                    "type": "DECIMAL"
+                },
+                {
+                    "name": "DATE_DIM_KEY",
+                    "type": "BIGINT"
+                },
+                {
+                    "name": "UPDT_DTTM",
+                    "type": "TIMESTAMP_NTZ"
+                }
+            ]
+        }
+    ],
+    "roles_details":
+    [
+        {
+            "role_name" : "KPN_Finance_DB_ADMIN"
+        },
+        {
+            "role_name" : "KPN_Finance_SC_DE"
+        },
+        {
+            "role_name" : "KPN_Finance_TB_DA1"
+        },
+        {
+            "role_name" : "KPN_Finance_TB_DA2"
+        }
+    ],
+    "grants_on_warehouse" : 
+    [
+        {
+            "Key"               : "Key1",
+            "role_name"         : ["KPN_Finance_DB_ADMIN"],
+            "warehouse_name"    : "KPN_Finance_WH",
+            "privileges"        : "MONITOR"
+        },
+        {
+            "Key"               : "Key2",
+            "role_name"         : ["KPN_Finance_DB_ADMIN", "KPN_Finance_TB_DA1"],
+            "warehouse_name"    : "KPN_Finance_WH",
+            "privileges"        : "USAGE"
+        }
+    ],
+    "grants_on_database" :
+    [
+        {
+            "Key"               : "Key1",
+            "role_name"         : ["KPN_Finance_DB_ADMIN", "KPN_Finance_SC_DE", "KPN_Finance_TB_DA1"],
+            "database_name"     : "KPN_Finance_DB",
+            "privileges"        : "USAGE"
+        }
+    ],
+
+    "grants_on_schema":
+    [
+        {
+            "Key"               : "Key1",
+            "role_name"         : ["KPN_Finance_SC_DE"],
+            "database_name"     : "KPN_Finance_DB",
+            "schema_name"       : "KPN_Finance_SC",
+            "privileges"        : "MONITOR"
+        },
+        {
+            "Key"               : "Key2",
+            "role_name"         : ["KPN_Finance_SC_DE", "KPN_Finance_TB_DA1"],
+            "database_name"     : "KPN_Finance_DB",
+            "schema_name"       : "KPN_Finance_SC",
+            "privileges"        : "USAGE"
+        }
+    ],
+    "grants_on_table":
+    [
+        {
+            "Key"               : "Key1",
+            "role_name"         : ["KPN_Finance_TB_DA1"],
+            "database_name"     : "KPN_Finance_DB",
+            "schema_name"       : "KPN_Finance_SC",
+            "table_name"        : "KPN_Finance_DA1_TB1",
+            "privileges"        : "SELECT"
+        },
+        {
+            "Key"               : "Key2",
+            "role_name"         : ["KPN_Finance_TB_DA1"],
+            "database_name"     : "KPN_Finance_DB",
+            "schema_name"       : "KPN_Finance_SC",
+            "table_name"        : "KPN_Finance_DA1_TB2",
+            "privileges"        : "SELECT"
+        },
+        {
+            "Key"               : "Key3",
+            "role_name"         : ["KPN_Finance_TB_DA2"],
+            "database_name"     : "KPN_Finance_DB",
+            "schema_name"       : "KPN_Finance_SC",
+            "table_name"        : "KPN_Finance_DA2_TB3",
+            "privileges"        : "SELECT"
+        },
+        {
+            "Key"               : "Key4",
+            "role_name"         : ["KPN_Finance_TB_DA2"],
+            "database_name"     : "KPN_Finance_DB",
+            "schema_name"       : "KPN_Finance_SC",
+            "table_name"        : "KPN_Finance_DA2_TB4",
+            "privileges"        : "SELECT"
+        }
+    ],
+    "users" : 
+    [
+        {
+            "username"      : "LAZMI",
+            "login_name"    : "LAZMI",
+            "password"      : "HJVBjhb780(())",
+            "comment"       : "Data Analyst TB 1,2 User",
+            "email"         : "lrajput@deloitte.com",
+            "first_name"    : "LAZMI",
+            "last_name"     : "RAJPUT"
+        },
+        {
+            "username"      : "FAROOQUE",
+            "login_name"    : "FAROOQUE",
+            "password"      : "HJVBjhb780(())",
+            "comment"       : "Data Analyst TB 3,4 User",
+            "email"         : "mohfarooque@deloitte.com",
+            "first_name"    : "FAROOQUE",
+            "last_name"     : "MOHAMMAD"
+        },
+        {
+            "username"      : "KESHAVK",
+            "login_name"    : "KESHAVK",
+            "password"      : "HJVBjhb780(())",
+            "comment"       : "Schema Data Engineer User",
+            "email"         : "keshakumar@deloitte.com",
+            "first_name"    : "KESHAV",
+            "last_name"     : "KUMAR"
+        },
+        {
+            "username"      : "RAJAK",
+            "login_name"    : "RAJAK",
+            "password"      : "HJVBjhb780(())",
+            "comment"       : "DB Admin USer",
+            "email"         : "rkavi@deloitte.com",
+            "first_name"    : "RAJAKISHORE",
+            "last_name"     : "KAVI"
+        }
+    ],
+    "assign_roles" : 
+    [
+        {
+            "key"       : "KEY1",
+            "username"  : "LAZMI",
+            "rolename"  : "KPN_Finance_TB_DA1"
+        },
+        {
+            "key"       : "KEY2",
+            "username"  : "FAROOQUE",
+            "rolename"  : "KPN_Finance_TB_DA2"
+        },
+        {
+            "key"       : "KEY3",
+            "username"  : "KESHAVK",
+            "rolename"  : "KPN_Finance_SC_DE"
+        },
+        {
+            "key"       : "KEY4",
+            "username"  : "RAJAK",
+            "rolename"  : "KPN_Finance_DB_ADMIN"
+        }
+    ]
+}
