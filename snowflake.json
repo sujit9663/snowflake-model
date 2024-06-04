@@ -2,7 +2,7 @@
     "warehouses" : 
     [
         {
-            "warehouse_name"    : "KPN_Finance_WH",
+            "warehouse_name"    : "KPN_POC_WH",
             "comment"           : "warehouse for KPN use case",
             "size"              : "x-small"
         }
@@ -299,13 +299,13 @@
         {
             "Key"               : "Key1",
             "role_name"         : ["KPN_Finance_DB_ADMIN"],
-            "warehouse_name"    : "KPN_Finance_WH",
+            "warehouse_name"    : "KPN_POC_WH",
             "privileges"        : "MONITOR"
         },
         {
             "Key"               : "Key2",
             "role_name"         : ["KPN_Finance_DB_ADMIN", "KPN_Finance_TB_DA1"],
-            "warehouse_name"    : "KPN_Finance_WH",
+            "warehouse_name"    : "KPN_POC_WH",
             "privileges"        : "USAGE"
         }
     ],
