@@ -27,4 +27,3 @@ resource "snowflake_role_grants" "grants" {
   ]
 
 }
-
